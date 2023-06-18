@@ -1,6 +1,6 @@
-HELP.md
+MusicService/HELP.md
 target/
-!.mvn/wrapper/maven-wrapper.jar
+!MusicService/.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
