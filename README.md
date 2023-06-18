@@ -1,8 +1,10 @@
 # Music Streaming App
 
-Project to create music streaming app, which can stream from both Spotify, and a personal (on-prem) music library stored in a home server.
-The application should have a web client which can be deployed to a website, and a client which can run natively on a BlackBerry Q20 device.
-The application should provide an API so that any other clients can be added easily in the future, and should define how requests are routed to the on-prem library, or to Spotify.
+I hate my iPhone. All I want in this world is a dumb-er phone that I can use to make calls, texts, write the odd email... and stream music. This doesn't exits, but it could.
+
+This is a project to build a music streaming app, which can stream from both Spotify, and, maybe one day from a personal (on-prem) music library stored in a home server.
+The application should have a client which can run natively on a BlackBerry Q20 device, as well as ideally, a web client which can be deployed to a website and run from a computer.
+Indeed it should provide an API so that any other clients can be added easily in the future, and should should also define how requests are routed to the on-prem library, or to Spotify.
 
 ## Project Milestones
 ### 1. Prototype
