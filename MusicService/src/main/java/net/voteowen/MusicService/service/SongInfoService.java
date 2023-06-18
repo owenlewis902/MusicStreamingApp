@@ -5,6 +5,6 @@ import net.voteowen.MusicService.dto.SongInfo;
 import java.util.List;
 
 public interface SongInfoService {
-    SongInfo getSong();
-    List<SongInfo> getSongs();
+    SongInfo getSong(String title);
+    List<SongInfo> getSongs(String keyword);
 }

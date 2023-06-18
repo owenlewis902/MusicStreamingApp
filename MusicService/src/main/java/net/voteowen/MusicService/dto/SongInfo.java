@@ -1,18 +1,13 @@
 package net.voteowen.MusicService.dto;
 
-import lombok.Builder;
-import lombok.Data;
-import lombok.NonNull;
+import lombok.*;
 
+@AllArgsConstructor
+@NoArgsConstructor
 @Data
 @Builder
 public class SongInfo {
-    @NonNull
     String title;
-    @NonNull
     String artist;
-    @NonNull
     String album;
-    @NonNull
-    int length;
 }
