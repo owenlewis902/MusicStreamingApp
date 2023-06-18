@@ -12,6 +12,7 @@ class MusicServiceApplicationTests {
 
 	@Autowired
 	ApplicationContext applicationContext;
+
 	@Test
 	void contextLoads() {
 		assertNotNull(applicationContext);
