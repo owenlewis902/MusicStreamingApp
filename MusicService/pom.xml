@@ -12,7 +12,7 @@
 	</parent>
 
 	<groupId>net.voteowen</groupId>
-	<artifactId>MusicStreamingApp</artifactId>
+	<artifactId>MusicService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>MusicService</name>
 	<description>MusicService</description>
