@@ -17,7 +17,11 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
-    - name: Build
+    - name: Build MusicService
       run: mvn -B package --file MusicService/pom.xml
-    - name: Test
+    - name: Test MusicService
       run: mvn test --file MusicService/pom.xml
+    - name: Build MockLibrary
+      run: mvn -B package --file MockLibrary/pom.xml
+    - name: Test MockLibrary
+      run: mvn test --file MockLibrary/pom.xml
